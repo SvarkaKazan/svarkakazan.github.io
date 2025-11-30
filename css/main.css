@@ -58,6 +58,7 @@ nav {
   text-align: center;
   padding: 150px 2rem 100px;
   margin-top: 60px;
+  border-radius: 10px;
 }
 
 .hero h1 {
@@ -86,7 +87,7 @@ nav {
 }
 
 section {
-  padding: 80px 2rem;
+  padding: 30px 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -105,12 +106,22 @@ section {
   margin-top: 3rem;
 }
 
+.feature-card > h3 {
+  text-align: center;
+}
+
+.items {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 1rem;
+}
+
 .feature-card {
   background: white;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  text-align: center;
+  text-align: justify;
   transition: transform 0.3s;
 }
 
